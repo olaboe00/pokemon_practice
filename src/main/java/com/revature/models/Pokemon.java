@@ -1,8 +1,11 @@
 package com.revature.models;
 
+import javax.validation.constraints.NotNull;
+
 public class Pokemon {
 
   private int id;
+  @NotNull
   private String name;
   private String type;
   private int attack;
